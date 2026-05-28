@@ -184,6 +184,21 @@
       ],
       "is_opensource": "True"
     },
+    "nousresearch": {
+      "model_name": "Hermes 3 405B",
+      "context_window": 131072,
+      "api_key": "api_key",
+      "model_type": "Cloud",
+      "reasoning": "True",
+      "reasoning_effort": "default",
+      "model_purpose": [
+        "general",
+        "roleplay",
+        "agentic",
+        "reasoning"
+      ],
+      "is_opensource": true
+    },
     "poolside/laguna-m.1:free": {
       "model_name": "poolside/laguna-m.1:free",
       "reasoning": "True",
@@ -554,6 +569,7 @@
     }
   },
   "ollama": {
+    "is_installed": "False",
     "priority": "medium",
     "installation": " uv add -qU langchain langchain-ollama ",
     "requires": "ollama",
@@ -777,6 +793,87 @@
         "fast_chat",
         "tool_calling",
         "vision"
+      ],
+      "is_opensource": "True"
+    }
+  },
+  "groq": {
+    "qwnen": {
+      "model_name": "qwen3-32b",
+      "reasoning": "False",
+      "reasoning_effort": "null",
+      "api_key": "groq_api_key",
+      "model_type": "Cloud",
+      "context_window": 131072,
+      "model_purpose": [
+        "text2text",
+        "fast_chat",
+        "tool_calling"
+      ],
+      "is_opensource": "True"
+    },
+    "canopylabs": {
+      "model_name": "orpheus-v1-english",
+      "reasoning": "False",
+      "reasoning_effort": "null",
+      "api_key": "groq_api_key",
+      "model_type": "Cloud",
+      "context_window": 131072,
+      "model_purpose": [
+        "text2speech",
+        "fast_voice"
+      ],
+      "is_opensource": "False"
+    },
+    "groq": {
+      "model_name": "compound",
+      "reasoning": "False",
+      "reasoning_effort": "null",
+      "api_key": "groq_api_key",
+      "model_type": "Cloud",
+      "context_window": 131072,
+      "model_purpose": [
+        "text2text",
+        "fast_chat"
+      ],
+      "is_opensource": "False"
+    },
+    "meta-llama": {
+      "model_name": "llama-3.3-70b-versatile",
+      "reasoning": "False",
+      "reasoning_effort": "null",
+      "api_key": "groq_api_key",
+      "model_type": "Cloud",
+      "context_window": 131072,
+      "model_purpose": [
+        "text2text",
+        "fast_chat"
+      ],
+      "is_opensource": "True"
+    },
+    "openai": {
+      "model_name": "gpt-oss-120b",
+      "reasoning": "False",
+      "reasoning_effort": "null",
+      "api_key": "groq_api_key",
+      "model_type": "Cloud",
+      "context_window": 131072,
+      "model_purpose": [
+        "text2text",
+        "fast_chat"
+      ],
+      "is_opensource": "True"
+    },
+    "whisper": {
+      "model_name": "whisper-large-v3",
+      "reasoning": "False",
+      "reasoning_effort": "null",
+      "api_key": "groq_api_key",
+      "model_type": "Cloud",
+      "context_window": 131072,
+      "model_purpose": [
+        "speech2text",
+        "fast_transcribe"
       ],
       "is_opensource": "True"
     }
