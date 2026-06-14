@@ -877,5 +877,20 @@
       ],
       "is_opensource": "True"
     }
+  },
+  "nvidia": {
+    "nvidia": {
+      "model_name": "nemotron-3-ultra-550b-a55b",
+      "reasoning": "True",
+      "reasoning_effort": "null",
+      "api_key": "api_key",
+      "model_type": "Cloud",
+      "context_window": 1048576,
+      "model_purpose": [
+        "text2text",
+        "image2text"
+      ],
+      "is_opensource": "True"
+    }
   }
 }
