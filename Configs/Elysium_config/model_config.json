@@ -879,7 +879,7 @@
     }
   },
   "nvidia": {
-    "nvidia": {
+    "nemotron-3-ultra-550b-a55b": {
       "model_name": "nemotron-3-ultra-550b-a55b",
       "reasoning": "True",
       "reasoning_effort": "null",
