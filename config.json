@@ -1,0 +1,31 @@
+{
+  "Configs": {
+    "download_url": "",
+    "version": "0.0.1"
+  },
+  "DFS_DIR": {
+    "download_url": "",
+    "version": "0.0.1"
+  },
+  "Sentinel": {
+    "download_url": "",
+    "version": "0.0.1"
+  },
+  "Skills": {
+    "download_url": "",
+    "version": "0.0.1"
+  },
+  "SuperMemory": {
+    "download_url": "https://raw.githubusercontent.com/Shishir-Kc/Elysium_additionals/refs/heads/main/SuperMemory/memory.py",
+    "dependency": {
+      "config": {
+        "download_url": "https://raw.githubusercontent.com/Shishir-Kc/Elysium_additionals/refs/heads/main/SuperMemory/memory.config.json"
+      }
+    },
+    "version": "0.0.1"
+  },
+  "Web_Interface": {
+    "download_url": "",
+    "version": "0.0.1"
+  }
+}
