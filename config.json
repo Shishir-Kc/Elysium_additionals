@@ -2,22 +2,22 @@
   "Configs": {
     "download_url": "",
     "version": "0.0.1",
-    "path": ".config/E.L.Y.S.I.U.M/Additionsla/Configs"
+    "path": ".config/E.L.Y.S.I.U.M/Additionals/Configs"
   },
   "DFS_DIR": {
     "download_url": "",
     "version": "0.0.1",
-    "path": ".config/E.L.Y.S.I.U.M/Additionsla/DFS_DIR"
+    "path": ".config/E.L.Y.S.I.U.M/Additionals/DFS_DIR"
   },
   "Sentinel": {
     "download_url": "",
     "version": "0.0.1",
-    "path": ".config/E.L.Y.S.I.U.M/Additionsla/Sentinal"
+    "path": ".config/E.L.Y.S.I.U.M/Additionals/Sentinal"
   },
   "Skills": {
     "download_url": "",
     "version": "0.0.1",
-    "path": ".config/E.L.Y.S.I.U.M/Additionsla/Skills"
+    "path": ".config/E.L.Y.S.I.U.M/Additionals/Skills"
   },
   "SuperMemory": {
     "download_url": "https://raw.githubusercontent.com/Shishir-Kc/Elysium_additionals/refs/heads/main/SuperMemory/memory.py",
@@ -27,11 +27,11 @@
       }
     },
     "version": "0.0.1",
-    "path": ".config/E.L.Y.S.I.U.M/Additionsla/SuperMemory"
+    "path": ".config/E.L.Y.S.I.U.M/Additionals/SuperMemory"
   },
   "Web_Interface": {
     "download_url": "",
     "version": "0.0.1",
-    "path": ".config/E.L.Y.S.I.U.M/Additionsla/Web_Interface"
+    "path": ".config/E.L.Y.S.I.U.M/Additionals/Web_Interface"
   }
 }
