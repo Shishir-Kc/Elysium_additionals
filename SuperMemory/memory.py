@@ -119,16 +119,22 @@ class SuperMemory:
     def save_message(self,message:Message):
         chat_path = f"{ROOTMEMORYPATH}/{self.year}/{self.month}/w{self.week}/day{self.day}/chat.json"
         with open(chat_path,'r') as file:
+            logger.info(f"Opening file for {chat_path}")
             data = Message.model_validate(json.load(file))
         if isinstance(message,str):
+            logger.info("Message instance is str")
             message = Message.model_validate_json(message)
         elif isinstance(message,dict):
+            logger.info("Message instance is dict ")
             message = Message.model_validate(message)
-
+        logger.info("Extending the chat context ")
         data.message.extend(message.message)
    
         with open(chat_path,"w") as file:
+            logger.info("Writing Chat context")
             json.dump(data.model_dump(),file,indent=2)
+            logger.info("Chat COntext written ")
+
     def initiatememory(self):
         directory_path = f"{ROOTMEMORYPATH}/{self.year}/{self.month}/w{self.week}/day{self.day}"
         logger.info("Creating memory dir  ")
