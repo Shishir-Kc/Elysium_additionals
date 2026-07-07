@@ -9,6 +9,7 @@ build/
 .env
 .env.*
 
+.venv
 # IDEs and Editors
 .vscode/
 .idea/
