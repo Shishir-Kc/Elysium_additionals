@@ -904,6 +904,22 @@
         "image2text"
       ],
       "is_opensource": "True"
+    },
+    "inkling": {
+      "model_name": "inkling",
+      "reasoning": "True",
+      "reasoning_effort": "high",
+      "api_key": "api_key",
+      "provider": "thinkingmachines",
+      "model_type": "Cloud",
+      "context_window": 1048576,
+      "model_purpose": [
+        "text2text",
+        "image2text",
+        "coding",
+        "reasoning"
+      ],
+      "is_opensource": "True"
     }
   }
 }
