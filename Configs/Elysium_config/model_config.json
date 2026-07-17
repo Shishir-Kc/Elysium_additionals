@@ -920,6 +920,21 @@
         "reasoning"
       ],
       "is_opensource": "True"
+    },
+    "glm-5.2": {
+      "model_name": "glm-5.2",
+      "reasoning": "True",
+      "reasoning_effort": "high",
+      "model_provider": "z.ai",
+      "model_type": "Cloud",
+      "context_window": 1048576,
+      "model_purpose": [
+        "reasoning",
+        "text2text",
+        "tool_calling",
+        "coding"
+      ],
+      "is_opensource": "True"
     }
   }
 }
