@@ -925,7 +925,7 @@
       "model_name": "glm-5.2",
       "reasoning": "True",
       "reasoning_effort": "high",
-      "model_provider": "z.ai",
+      "model_provider": "z-ai",
       "model_type": "Cloud",
       "context_window": 1048576,
       "model_purpose": [
