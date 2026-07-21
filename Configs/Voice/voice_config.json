@@ -1,0 +1,16 @@
+{
+  "models": {
+    "KittenML/kitten-tts-nano-0.8-int8": {
+      "required_ram": "1GB"
+    },
+    "KittenML/kitten-tts-nano-0.8": {
+      "required_ram": "2GB"
+    },
+    "KittenML/kitten-tts-micro-0.8": {
+      "required_ram": "3GB"
+    },
+    "KittenML/kitten-tts-mini-0.8": {
+      "required_ram": "4GB"
+    }
+  }
+}
