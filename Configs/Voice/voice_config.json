@@ -12,5 +12,6 @@
     "KittenML/kitten-tts-mini-0.8": {
       "required_ram": "4GB"
     }
-  }
+  },
+  "path": ".config/E.L.Y.S.I.U.M/Models/"
 }
